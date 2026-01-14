@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis E. Aguirre – Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Luis E. Aguirre</h1>
+            <p>Waddell, AZ • 619‑718‑1979 • <a href="mailto:aguirluis@gmail.com">aguirluis@gmail.com</a></p>
+            <p>Active DoD Secret Security Clearance</p>
+
+            <p class="links">
+                <a href="https://github.com/aguirluis" target="_blank">GitHub</a> •
+                <a href="https://aguirluis.github.io/theoldtek/" target="_blank">TheOldTek Blog</a>
+            </p>
+        </header>
+
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>CompTIA Security+</li>
+                <li>CompTIA A+</li>
+                <li>Microsoft Azure Fundamentals (AZ‑900)</li>
+                <li>Microsoft Azure Administrator (AZ‑104 – In Progress)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                IT Systems Engineer with 15+ years of experience in enterprise and DoD environments, specializing in identity management, system administration, cloud technologies, and secure infrastructure operations. Strong background in Active Directory, VMware, Azure, PowerShell, Linux/Windows systems, and DISA STIG/NIST compliance. Proven ability to support mission‑critical systems, automate workflows, and maintain secure, high‑availability environments. Active DoD Secret clearance.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Cloud & Automation:</strong> Azure AD, Azure Functions (foundational), Azure Automation, PowerShell, Bash, JSON</li>
+                <li><strong>Identity & Access Management:</strong> Active Directory, ADFS, Group Policy, Serge PAM, PKI</li>
+                <li><strong>Infrastructure:</strong> VMware vSphere/ESXi, SCCM, DNS, RMM Tools</li>
+                <li><strong>Security & Compliance:</strong> DISA STIG, NIST, CIS Benchmarks, Patch Management, Encryption</li>
+                <li><strong>Systems Administration:</strong> Windows OS, RHEL/Linux, VoIP Systems, Endpoint Deployment</li>
+                <li><strong>Tools & Platforms:</strong> Symantec Endpoint, Exchange Manager, Jira, Confluence, Service Desk</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <div class="experience-card">
+                <h3>Identity Cyber Systems Engineer — Leidos (Hybrid)</h3>
+                <p class="date">March 2024 – June 2025</p>
+                <ul>
+                    <li>Administered VMware clusters and multi‑domain Active Directory environments.</li>
+                    <li>Configured ADFS relying party trusts for SSO integrations.</li>
+                    <li>Managed Serge PAM and PKI certificate lifecycle.</li>
+                    <li>Authored GPO enforcement documentation and replication health procedures.</li>
+                    <li>Collaborated with cybersecurity, networking, and engineering teams.</li>
+                    <li>Maintained documentation using Jira and Confluence.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>Independent IT Consultant — Self‑Employed</h3>
+                <p class="date">May 2022 – March 2024</p>
+                <ul>
+                    <li>Delivered server recovery and data restoration solutions.</li>
+                    <li>Recovered corrupted/lost data from HDD/SSD storage.</li>
+                    <li>Installed and configured CCTV/IP camera systems and secure remote access.</li>
+                    <li>Designed and deployed home and small‑business networks.</li>
+                    <li>Provided IT security consulting and ongoing technical support.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>System Administrator II — General Atomics</h3>
+                <p class="date">June 2020 – May 2022</p>
+                <ul>
+                    <li>Supported engineering labs for AAG and EMALS programs.</li>
+                    <li>Administered Windows 7 and RHEL 7 systems.</li>
+                    <li>Configured Cisco switches and fiber connections.</li>
+                    <li>Performed system health checks and enforced DISA STIG/NIST compliance.</li>
+                    <li>Collaborated with engineers and vendors to resolve issues.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>PC Support Technician II — General Atomics</h3>
+                <p class="date">April 2016 – June 2020</p>
+                <ul>
+                    <li>Delivered Tier 2 support across secure and non‑secure environments.</li>
+                    <li>Built and deployed systems via SCCM and manual imaging.</li>
+                    <li>Configured network settings, VPN access, and user permissions.</li>
+                    <li>Supported VoIP systems and maintained patch cycles.</li>
+                    <li>Resolved end‑user issues in classified environments.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>PC Support Technician II — DISYS (Gerdau)</h3>
+                <p class="date">March 2015 – December 2015</p>
+                <ul>
+                    <li>Managed 800+ endpoints and configured AD/Exchange accounts.</li>
+                    <li>Set up VoIP systems, network printers, and VPN workflows.</li>
+                    <li>Provided remote troubleshooting in a high‑volume environment.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Science – Information Systems Security</strong>, ITT Technical Institute (Dec 2009)</li>
+                <li><strong>Associate of Science – IT Multimedia</strong>, ITT Technical Institute (Mar 2007)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Military Service</h2>
+            <p>U.S. Army – E‑4 Specialist (Jan 2000 – Jan 2003)</p>
+        </section>
+
+        <section>
+            <h2>Visitor Counter</h2>
+            <p>This page has been viewed <span id="visitor-count">loading...</span> times.</p>
+        </section>
+
+        <footer>
+            <p><a href="#" target="_blank">Read my project blog post</a></p>
+        </footer>
+
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
