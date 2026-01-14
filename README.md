@@ -83,7 +83,6 @@ This helped me think about cloud efficiency and real-world budgeting.
 - Cloud architecture fundamentals  
 - Deploying and managing cloud resources  
 - Understanding compute, storage, networking, and security  
-- Basic automation and scripting  
 - Monitoring and cost optimization  
 
 ### Professional Skills
